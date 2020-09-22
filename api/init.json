@@ -43,7 +43,7 @@
             },
             {
               "title": "班级信息维护",
-              "href": "page/class/findClass.html",
+              "href": "page/class/findclass.html",
               "icon": "fa fa-search-plus",
               "target": "_self"
             }
@@ -77,7 +77,7 @@
           "child": [
             {
               "title": "合作企业添加",
-              "href": "page/company/addcompany.html",
+              "href": "page/company/addCompany.html",
               "icon": "fa fa-plus-square",
               "target": "_self"
             },
