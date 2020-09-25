@@ -39,13 +39,13 @@
             <div class="layui-form-item">
                 <label class="layui-form-label">入学时间</label>
                 <div class="layui-input-block">
-                    <input type="text" name="date" id="date1" autocomplete="off" class="layui-input" placeholder="请选择入学时间" value="2017-10-20" readonly>
+                    <input type="text" name="date" id="date1" autocomplete="off" class="layui-input" placeholder="请选择入学时间" value="2017-09-10" readonly>
                 </div>
             </div>
             <div class="layui-form-item">
                 <label class="layui-form-label">毕业时间</label>
                 <div class="layui-input-block">
-                    <input type="text" name="date" id="date2" autocomplete="off" class="layui-input" placeholder="请选择毕业时间" value="2021-6-28" readonly>
+                    <input type="text" name="date" id="date2" autocomplete="off" class="layui-input" placeholder="请选择毕业时间" value="2021-6-20" readonly>
                 </div>
             </div>
 
@@ -64,7 +64,7 @@
             <div class="layui-form-item">
                 <label class="layui-form-label">班主任电话</label>
                 <div class="layui-input-block">
-                    <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input" value="13695865896">
+                    <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input" value="13503569887">
                 </div>
             </div>
             <div class="layui-form-item">
@@ -76,7 +76,7 @@
             <div class="layui-form-item">
                 <label class="layui-form-label">辅导员电话</label>
                 <div class="layui-input-block">
-                    <input type="tel" name="instructorPhone" lay-verify="required|phone" autocomplete="off" class="layui-input" value="12314521236">
+                    <input type="tel" name="instructorPhone" lay-verify="required|phone" autocomplete="off" class="layui-input" value="13503569887">
                 </div>
             </div>
 
@@ -122,8 +122,8 @@
         //自定义验证规则
         form.verify({
             title: function (value) {
-                if (value.length < 5) {
-                    return '标题至少得5个字符啊';
+                if (value.length < 4) {
+                    return '标题至少得4个字符啊';
                 }
             }
             , pass: [
